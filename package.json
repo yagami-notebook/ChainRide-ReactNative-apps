@@ -1,0 +1,57 @@
+{
+	"name": "BlablaClone",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"axios": "^0.16.0",
+		"immutability-helper": "^2.1.1",
+		"lodash": "^4.17.4",
+		"moment": "^2.17.1",
+		"pluralize": "^3.1.0",
+		"ramda": "^0.23.0",
+		"react": "16.0.0-alpha.6",
+		"react-native": "^0.44.0",
+		"react-native-action-button": "^2.0.20",
+		"react-native-button": "^1.7.1",
+		"react-native-collapsible": "^0.8.0",
+		"react-native-datepicker": "^1.4.3",
+		"react-native-elements": "^0.11.0",
+		"react-native-fabric": "^0.4.1",
+		"react-native-fabric-crashlytics": "^0.1.8",
+		"react-native-facebook-login": "^1.4.0",
+		"react-native-google-places": "^2.0.4",
+		"react-native-image-picker": "^0.26.0",
+		"react-native-maps": "^0.13.1",
+		"react-native-onesignal": "^3.0.3",
+		"react-native-vector-icons": "^4.0.0",
+		"react-navigation": "git+https://github.com/react-community/react-navigation.git",
+		"react-redux": "^5.0.1",
+		"redux": "^3.6.0",
+		"redux-axios-middleware": "^4.0.0",
+		"redux-form": "^6.4.1",
+		"redux-persist": "^4.1.1",
+		"redux-thunk": "^2.1.0"
+	},
+	"devDependencies": {
+		"babel-jest": "^19.0.0",
+		"babel-plugin-transform-class-properties": "^6.19.0",
+		"babel-preset-es2015": "^6.18.0",
+		"babel-preset-react-native": "^1.9.1",
+		"babel-preset-react-native-stage-0": "^1.0.1",
+		"jest": "^19.0.0",
+		"react-test-renderer": "^15.5.0"
+	},
+	"jest": {
+		"preset": "react-native",
+		"transformIgnorePatterns": [
+      "node_modules/(?!react-native|react-navigation)/"
+    ],
+		"setupFiles": [
+			"<rootDir>/jest/setup.js"
+		]
+	}
+}
